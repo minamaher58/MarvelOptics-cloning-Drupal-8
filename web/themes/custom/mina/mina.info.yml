@@ -1,0 +1,20 @@
+name: mina
+description: theming
+type: theme
+core: 8.x
+base theme: bootstrap
+libraries:
+  - mina/global-css
+  - mina/global-js
+regions:
+  header: Header
+  menu: Main Menu
+  background_image: Background Image
+  content: Content
+  # sidebar_first: Left Sidebar
+  sidebar_second: Right Sidebar
+  related_articles: Related Articles
+  footer: Footer
+  second_footer1: Second Footer1
+  second_footer2: Second Footer2
+  footer3: Footer3

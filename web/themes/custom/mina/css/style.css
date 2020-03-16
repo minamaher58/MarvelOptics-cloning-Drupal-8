@@ -1,0 +1,456 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.article-text-style{
+    font-family: 'Raleway' ;
+    font-weight: 500;
+    font-size: large;
+}
+
+.linkcolor a{
+    color: black;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+.linkcolor a:hover{
+    color: #337ab7;
+}
+
+/* .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img
+{
+    width: 100%;
+    max-height: 300px;
+    margin: auto;
+}
+.carousel-inner
+{
+    width: 80%;
+    margin: auto;
+} */
+
+.item span a {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+}
+
+.a-size-articlenodepage{
+    display: block;;
+    overflow: hidden;
+}
+
+.article-img img{
+   width: 100%;
+}
+
+#footer2{
+    background-color:#F8F8F8;
+    /* position: relative; */
+    height: auto;
+}
+#footer2 .col-md-6
+{
+    border-right: 1px solid #CCCCCC;
+
+}
+.vl{
+    border-left: 1px solid #CCCCCC;
+    height: 80%;
+    position: relative;
+    top: 10%;
+    /* position: absolute; */
+}
+
+.fa-phone-volume , .fa-fax ,.fa-envelope-open-text{
+  color: #3085AD;
+}
+
+
+.btn-footer2{
+    padding: 10px;
+}
+
+
+/* Owl Carousel */
+#block-views-block-related-articles-block-1
+{
+    margin: 2%;
+}
+.owl-carousel img{
+    width: 100%;
+    height: 400px;
+  
+  }
+.owl-carousel span a
+{
+    text-align: left;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.owl-prev , .owl-next{
+    position : absolute;
+    top: 30%;
+}
+
+.owl-prev{
+    left:0;
+   width: 1.5%;
+}
+
+.owl-next{
+    right: 0;
+    width: 1.5%;
+}
+
+.owl-prev span, .owl-next span{
+    display: block;
+    background-color:rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    color: #787878;
+}
+/* Footer 2 */
+
+/* search box parent div home page */
+.input-group-btn {
+    padding: 20px 20px 20px 0;
+}
+.search-box-parent-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#input-footer2{
+   padding: 20px;
+   border: 1px solid #242424;
+}
+
+/* footer 3 */
+#footer3
+{
+    padding-left: 30px;
+    padding-right: 30px;
+} 
+
+
+/* block about footer 3 */
+#block-about h2
+{
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 4%;
+}
+
+#block-about ul li a
+{
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+}
+#block-about ul li a:hover
+{
+    background: white;
+}
+/* block Customer service */
+#block-customerservice h2
+{
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 4%;
+}
+
+#block-customerservice ul li a
+{
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+}
+#block-customerservice ul li a:hover
+{
+    background: white;
+}
+/* block Learn */
+#block-learn h2
+{
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 4%;
+}
+
+#block-learn ul li a
+{
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+}
+#block-learn ul li a:hover
+{
+    background: white;
+}
+/* block shopby */
+#block-shopby h2
+{
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 4%;
+}
+
+#block-shopby ul li a
+{
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+}
+#block-shopby ul li a:hover
+{
+    background: white;
+}
+
+
+
+#open-button {
+    background-color: #EA6E30;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 14px;
+    right: 16px;
+    width: 150px;
+    z-index: 5;
+  }
+
+  #close-button {
+      display: none;
+    background-color: #EA6E30;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 14px;
+    right: 16px;
+    width: 150px;
+    z-index: 5;
+  }
+
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #EA6E30;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+   background-color: #EA6E30;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+ .author
+ {
+     margin-bottom: 3%;
+ }
+
+ .bg-img2
+ {
+    width: 100%;  
+    height: 100vh;
+
+ }
+
+ /* Home page */
+.home-page
+{
+    /* background-color: red; */
+    z-index: 6;
+}
+
+.home-page-col 
+{
+    position: relative;
+    width: 40%;
+    margin: 10px;
+    margin-left: 5%;
+}
+
+.home-page-col span
+{
+    display: block;
+}
+.home-page-col span a
+{
+    color: white;  
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    width: 100%;
+}
+
+.home-page-col span a:hover{
+    text-decoration: none;
+}
+.home-page-col .field-content{
+    overflow: hidden;
+}
+.home-page img
+{
+    transition: .3s;
+}
+.home-page img:hover
+{
+    /* transform: scale(1.1); */
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+/* .home-page-col.views-field
+{
+    position: absolute;
+    top: 0;
+} */
+#homepage h3{
+    font-weight: bold;
+    font-size: 23.385px
+}
+
+ #homepage-p
+ {
+     font-size: 18px;
+     text-align: center;
+     width: 70%;
+     margin: auto;
+     margin-bottom: 5%;
+     margin-top: 2%;
+ }
+
+ .background2 .field
+ {
+   position: relative;
+ }
+
+ .block-activateinstantoffer
+ {
+     font-weight:bold;
+     width: 36%;
+     margin: auto;
+     font-size: 1.5rem;
+ }
+
+ /* button.home-btn{  
+    color: black;
+    background-color: rgb(251,250,248,0.8);
+    border: 2px solid black;
+    margin: 2% 2%;
+    font-size: 18px;
+   
+    width: 225px;
+    height: 50px;
+   }
+  button:hover
+  {
+    background-color:rgb(251,250,248,0.4);
+  }
+
+.button-home
+{
+text-align:center;
+position: absolute; 
+top:75%; 
+width: 100%;
+} */
+
+
+ /* Media Queries */
+@media (max-width:1024px)
+{
+  #footer3 , #footer2
+  {
+      font-size: larger;
+  }
+  .block-activateinstantoffer
+  {
+      width: 70%;
+  }
+}
+
+
+
+/* home page  */
+@media (max-width:800px)
+{
+    #homepage-p
+    {
+        font-size: 18px; 
+        width: 100%;
+        margin: 0;
+        margin-top: 2%;
+        font-size: 18px;
+        text-align: center;  
+    }  
+}
+@media (max-width:500px)
+{
+    .home-page-col {
+        position: relative;
+        width: 90%;
+        margin: 20px;
+    }
+    .background2 .button-home{
+       top:65%;
+    }
+}
+
